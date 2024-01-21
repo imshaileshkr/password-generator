@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+}
+.neumorphism{
+    border-radius: 20px;
+    background: #e0e0e000;
+    box-shadow: inset 10px 10px 20px #cccccc52, inset -10px -10px 20px #f4f4f4;
+}
